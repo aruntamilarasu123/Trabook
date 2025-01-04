@@ -19,6 +19,7 @@
             width: 65%;
             >.nav-middleContent{
                 li {
+                    display: flex;
                     a {
                         font-size: 6px;
                     }
@@ -173,7 +174,7 @@
                     padding: 5px;
                     width: auto;
                     height: auto;
-                    top: 20%;
+                    top: 40%;
                     right: 28%;
                     font-size: 7px;
     
@@ -366,8 +367,8 @@
             >.section-five-right-one{
                 top: 72px;
                 left: 50px;
-                width: 310px;
-                height: 140px;
+                width: 266px;
+                height: 124px;
                 border-radius: 10px;
                 div{
                     margin: 0px 10px 5px 10px;
@@ -382,9 +383,12 @@
             >.section-five-right-two{
                 top: 19px;
                 left: 19px;
-                width: 310px;
-                height: 140px;
+                width: 266px;
+                height: 124px;
                 border-radius: 10px;
+            }
+            #shado-one{
+                box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09);
             }
             >.section-five-right-three{
                 position: absolute;
@@ -416,6 +420,7 @@
         /* PAGE SIX BOTTOM SECTION */
         >.section-six-cart{
             flex-wrap: wrap;
+            justify-content: center;
             >.six-cart{
                 width: 173px;
                 img{
