@@ -1,0 +1,493 @@
+@media only screen and (max-width: 480px) { 
+    body {
+        padding: 0% 40px;
+    }
+    /* NAVIGATION SECTION */
+    .navigation-component{
+        margin-top: 5px;
+        >.nav-left{
+            width: 15%;
+            font-size: 10px;
+            column-gap: 5px;
+            img {
+                width: 14px;
+                
+            }
+        }
+        >.nav-middle {
+            width: 55%;
+            >.nav-middleContent{
+                li {
+                    a {
+                        text-decoration: none;
+                        font-size: 8px;
+                        color: black;
+                    }
+                }
+            }
+        }
+        >.nav-right{
+            width: 30%;
+            column-gap: 5px;
+            button {
+                width: 60px;
+                height: 20px;
+                border: 1px;
+                border-radius: 2px;
+            }
+        }
+    }
+    
+    /* HOME PAGE TOP SECTION */
+    .home-content {
+        /* HOME PAGE TOP LEFT SECTION */
+        >.home-left{
+            width: 50%;
+            height: 40%;
+            margin-top: 5%;
+            h1 {
+                font-size: 24px;
+            }
+            >.home-left-content{
+                margin-top:5px ;
+                p {
+                    padding-right: 20px;
+                    font-size: 8px;
+                    margin-bottom: 15px;
+                }
+                button {
+                    width: 80px;
+                    height: 30px;
+                    border-radius: 3px;
+                    font-size: 10px;  
+                }
+            }
+        }
+        >.home-right{
+            width: 50%;
+            height: 40%;
+            img {
+              width: 250px;
+              height: 200px;
+            }
+         }
+    }
+    /* HOME PAGE BOTTOM SECTION */
+    .home-bottom{
+        padding: 10px;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        div{
+            column-gap: 5px;
+            font-size: 10px;
+            >.home-discription{
+                font-size: 7px;
+                margin-top:5px ;
+            }
+        }
+        button {
+            margin-top: 10%;
+            width: 80px;
+            height: 30px;
+            font-size: 10px; 
+        }
+        button:hover{
+                color: var(--BT-ORANGE);
+                background-color: var(--BT-WHITE);
+                border: 1px solid #FA7436;
+        }
+    
+    }
+    /* PAGE TWO */
+    .sectiontwo{
+        /* PAGE TWO TOP SECTION */
+        >.section-two{
+            img{
+                position: absolute;
+                width: 60px;
+                height: 50px;
+                right: 10px;
+            }
+            >.section-two-top{
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+            >.section-two-top2{
+                font-size: 10px;
+                width: 240px;
+                height: 30px;
+                margin-bottom: 5%;
+            }   
+        }
+        /* PAGE TWO BOTTOM SECTION */
+        >.section-two-bottom{
+            flex-direction: column;
+            align-items: center;
+            >.section-bottom{
+                padding: 20px;
+                width: 220px;
+                background-color: #FFFFFF;
+                border-radius: 5px;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    margin-bottom: 20px;
+                    border-radius: 2px;
+                }
+                h2{
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                    cursor: pointer;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    /* PAGE THREE */
+    .sectionthree{
+        /* PAGE THREE TOP SECTION */
+        >.section-three{
+            align-items: center;
+            flex-direction: column;
+            >.section-three-top{
+                font-size: 15px;
+                text-align: center;
+                margin-bottom: 13px;
+            }
+            >.section-three-top2{
+                font-size: 10px;
+                width: 270px;
+                height: 30px;
+                margin-bottom: 5%;
+            }   
+        }
+        /* PAGE THREE BOTTOM SECTION */
+        >.section-three-cart{
+            margin-bottom: 5%;
+            flex-wrap: wrap;
+            >.three-cart{
+                margin-top: 5%;
+                >.cart-button{
+                    width: 100px;
+                    height: 40px;
+                    top: 40%;
+                    right: 22%;
+                    font-size: 13px;
+    
+                }
+                .cart-button:hover{
+                    font-size: 15px;
+                }
+                img{
+                    height: 180px;   
+                }
+                >.three-cart-middle{
+                    padding: 0% 7px 0% 7px;
+                    justify-content: space-between;
+                    margin-bottom: 5px ;
+                    margin-top: 10%;
+                    >.city-name{
+                        font-size: 20px;
+                    }
+                    >.city-ratings{
+                        justify-content: center;
+                        column-gap: 5px;
+                        img{
+                            width: 10px;
+                            height: 10px;
+                            margin-top:2px ;
+                        }
+                        >.city-rat{
+                            font-size: 10px;
+                        }
+                    }
+                }
+                >.three-cart-bottom{
+                    margin-bottom: 10% ;
+                    >.city-location{
+                        column-gap: 5px;
+                        
+                        img{
+                            width: 11px;
+                            height: 14px;
+                        }
+                        >.city-name{
+                            font-size: 10px;
+                            align-items: center;
+                            display: flex;
+                        }
+                    }
+                    >.city-rate{
+                        column-gap: 5px;
+                            >.city-rate-1{
+                                font-size: 10px;
+                            }
+                            >.city-rate-2{
+                                height: 15px;
+                                border-radius: 2px;
+                                font-size: 10px;
+                                background-color: #FFE7DB;
+                                color: #FA7436;
+                            }
+                    }
+                }
+    
+            }
+        }
+        >.next-btn-1{
+            display: flex;
+            column-gap: 20px;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+    }
+    /* PAGE FOUR */
+    .sectionfour{
+        /* PAGE FOUR TOP SECTION */
+        >.section-four{
+            >.tree-element-one{
+                width: 70px;
+                height: 50px;
+                right: 0px;
+            }
+            >.section-four-top{
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
+            >.section-four-top2{
+                font-size: 12px;
+                width: 300px;
+                height: 30px;
+            }   
+        }
+        >.next-btn-2{
+            margin-top: 2%;
+            column-gap: 10px;
+           img{
+            width: 20px;
+            height: 20px;
+           }
+        }
+        /* PAGE FOUR BOTTOM SECTION */
+        >.section-four-cart{
+            flex-wrap: wrap;
+            >.four-cart{
+                margin-top: 5%;
+                >.four-cart-middle{
+                    >.city-name-four{
+                        font-size: 20px;
+                    }
+                    >.city-rate-four{
+                        column-gap: 5px;
+                            >.city-rate-2-four{
+                                font-size: 12px;
+                            }
+                    }
+                }
+                >.four-cart-bottom{
+                    >.city-location-four{
+                        column-gap: 5px;
+                        >.city-name-four{
+                            font-size: 9px;
+                        }
+                    }
+                    >.city-ratings-four{
+                        img{
+                            width: 10px;
+                            height: 10px;
+                            margin-top:2px ;
+                        }
+                        >.city-rat-four{
+                            font-size: 10px;
+                        }
+                    }
+                }
+    
+            }
+        }
+    }
+    /* PAGE FIVE */
+    .section-five{
+        column-gap: 50px;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        /* PAGE FIVE LEFT SECTION */
+        >.section-five-left{
+            text-align: center;
+            width: 100%;
+            >.section-five-top{
+                font-size: 15px;
+                margin-bottom: 15px;
+            }
+            >.section-five-top2{
+                font-size: 12px;
+                margin-bottom:10px
+            }
+            >.next-btn-3{
+                margin-bottom: 10%;
+                column-gap: 10px;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+        /* PAGE FIVE RIGHT SECTION */
+        >.section-five-right{
+            width: 100%;
+        }
+        >.air-two{
+        width: 90px;
+        height: 90px;
+        right: -30px;
+        top: -20px;
+        }
+    }
+    /* PAGE SIX */
+    .sectionsix{
+        /* PAGE SIX TOP SECTION */
+        >.section-six{
+            align-items: center;
+            >.section-six-top{
+                width: auto;
+                height: auto;
+            }
+        }
+        /* PAGE SIX BOTTOM SECTION */
+        >.section-six-cart{
+            flex-wrap: wrap;
+            >.six-cart{
+                margin-top: 5% ;
+                img{
+                    object-fit: cover; 
+                        
+                }
+                >.six-cart-middle{
+                    padding: 0% 7px 0% 7px;
+                    >.city-name-six{
+                        font-size: 11px;
+                    }
+                }
+                >.six-cart-bottom{
+                    padding: 0% 7px 0% 7px;
+                    >.city-location-six{
+                        >.city-name-six{
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        >.section-six-slider{
+            margin-top: 5%;
+        }
+    }
+    /* PAGE SEVAN */
+    .section-sevan{
+        height: auto;
+        padding: 5% 0%;
+        >.tree-element-two{
+            width: 12%;
+            height: 30%;
+        }
+        >.circle-element{
+            width: 35%;
+            height: 70%;
+        }
+        >.section-sevan-top{
+            width: 90%;
+            h1{
+                margin: 0% 10% 0% 10%;
+                font-size: 18px;
+            }
+        }
+    }
+    .search-container {
+        border-radius: 8px;
+        padding: 1%;
+        width: 60%;
+    }
+    .search-box {
+        padding: 3%;
+        font-size: 8px;
+        border-radius: 20px;
+        margin-right: 5%;
+    }
+
+    .search-icon {
+        margin-right: 1%;
+        width: 12px;
+        height: 12px;
+    }
+
+    .search-button {
+        padding: 2% 5%;
+        font-size: 10px;
+    }
+    /* PAGE EIGHT */
+    .section-eight{
+        margin-bottom: 5%;
+        flex-direction: column;
+        /* PAGE EIGHT LEFT SECTION*/
+        >.section-eight-left{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            >.section-eight-left-one{
+                column-gap: 10px;
+                img{
+                    width: 25px;
+                }
+            }
+            >.section-eight-left-two{
+                text-align: center;
+                padding-right: 0%;
+            }
+            >.section-eight-left-three{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                justify-content: space-around;
+                button{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                }
+
+            }
+        }
+        /* PAGE EIGHT RIGHT SECTION*/
+        >.section-eight-right{
+            margin-top: 10%;
+            width: 100%;
+            >.section-right-one{
+                display: flex;
+                cursor: pointer;
+            div{
+                row-gap: 10px;
+                span{
+                    font-size: 17px;
+                }
+                }
+            }
+        }
+    }
+    /* FOOTER SECTION */
+    .line{
+        width: 100%;
+    }
+    .end{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3%;
+        font-size: 8px;
+    }
+}
