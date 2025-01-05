@@ -124,21 +124,21 @@
             align-items: center;
             >.section-bottom{
                 padding: 10px;
-                width: 130px;
+                width: 25%;
                 background-color: #ffffff;
                 border-radius: 5px;
                 img{
-                    width: 22px;
-                    height: 22px;
+                    width: 20px;
+                    height: 20px;
                     margin-bottom: 10px;
                     border-radius: 2px;
                 }
                 h2{
-                    font-size: 11px;
+                    font-size: 9px;
                     margin-bottom: 2px;
                 }
                 p{
-                    font-size: 8px;
+                    font-size: 6px;
                 }
             }
         }
@@ -165,21 +165,23 @@
         /* PAGE THREE BOTTOM SECTION */
         >.section-three-cart{
             margin-bottom: 3%;
+            justify-content: space-between;
+            flex-wrap: wrap;
             >.three-cart{
-                width: 109px;
-                height: 144px;
+                width: 47%;
+                height: 280px;
                 margin-top: 3%;
                 >.cart-button{
                     padding: 5px;
                     width: auto;
                     height: auto;
-                    top: 40%;
-                    right: 25%;
-                    font-size: 10px;
+                    top: 43%;
+                    right: 31%;
+                    font-size: 17px;
     
                 }
                 .cart-button:hover{
-                    font-size: 12px;
+                    font-size: 20px;
                 }
                 img{
                     height: 64%;   
@@ -190,33 +192,34 @@
                     margin-bottom: 5px ;
                     margin-top: 10%;
                     >.city-name{
-                        font-size: 13px;
+                        font-size: 25px;
                     }
                     >.city-ratings{
                         justify-content: center;
                         column-gap: 5px;
                         img{
-                            width: 8px;
-                            height: 8px;
-                            margin-top:1px ;
+                            width: 16px;
+                            height: 17px;
+                            margin-top:0px ;
                         }
                         >.city-rat{
-                            font-size: 8px;
+                            font-size: 12px;
                         }
                     }
                 }
                 >.three-cart-bottom{
                     margin-bottom: 10% ;
+                    align-items: center;
                     >.city-location{
                         column-gap: 2px;
                         
                         img{
-                            width: 7px;
-                            height: 9px;
+                            width: 14px;
+                            height: 17px;
                         }
                         >.city-name{
-                            font-size: 7px;
-                            margin-top: 2px;
+                            font-size: 13px;
+                            margin-top: 0px;
                             align-items: center;
                             display: flex;
                         }
@@ -226,14 +229,14 @@
                         display: flex;
                         column-gap: 3px;
                             >.city-rate-1{
-                                font-size: 7px;
+                                font-size: 12px;
                             }
                             >.city-rate-2{
                                 align-items: center;
                                 display: flex;
-                                height:9px;
+                                height:12px;
                                 border-radius: 2px;
-                                font-size: 7px;
+                                font-size: 12px;
                             }
                     }
                 }
@@ -279,9 +282,11 @@
         }
         /* PAGE FOUR BOTTOM SECTION */
         >.section-four-cart{
+            flex-wrap: wrap;
+            justify-content: space-between;
             >.four-cart{
                 margin-top: 5%;
-                width: 131px;
+                width: 28%;
                 height: auto;
                 img{
                     width: 100%; 
